@@ -1,0 +1,36 @@
+.mesa {
+    display: flex;
+}
+.contenedor {
+  width: 500px;
+  height: 300px;
+  border: 2px dashed #ccc;
+  position: relative;
+}
+.contenedor-cartas {
+  display: flex;
+  flex-wrap: wrap;
+}	
+.carta {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.bastos {
+    background-color: rgb(56, 202, 56);
+}
+.espadas {
+    background-color: lightblue;
+}
+.copas {
+    background-color: rgb(233, 45, 45);
+}
+.oros {
+    background-color: rgb(194, 194, 46);
+}
